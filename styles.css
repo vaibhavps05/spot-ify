@@ -42,7 +42,7 @@ li{
 
 .bottom{
     background-color: black;
-    padding-top: 30px;
+    padding-top: 25px;
     position: sticky;
     margin-bottom: 0;
     text-align: center;
@@ -51,10 +51,14 @@ li{
 
 #myProgressBar{
     width: 70%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .icons{
-    margin-bottom: 30px;
-    
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.icons i{
+    cursor: pointer;
 }
