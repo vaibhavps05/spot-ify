@@ -38,12 +38,24 @@ li{
 
 .container{
     height: 75vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .bottom{
     background-color: black;
     padding-top: 25px;
     position: sticky;
+    bottom: 0;
     margin-bottom: 0;
     text-align: center;
     color: white;
@@ -52,6 +64,7 @@ li{
 #myProgressBar{
     width: 70%;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .icons{
@@ -61,4 +74,42 @@ li{
 
 .icons i{
     cursor: pointer;
+}
+
+.songItem{
+    display: flex;
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    width: 150%;
+    margin: 10px 0;
+    align-items: center;
+    border-radius: 30px;
+    padding-right: 15px;
+}
+
+.songItem img{
+    width: 37px;
+    margin: 3px 20px;
+}
+
+.songListPlay i{
+    cursor: pointer;
+}
+
+.songInfo{
+    display: flex;
+    align-items: center;
+}
+
+.songInfoGif{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+#gif{
+    
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
 }
